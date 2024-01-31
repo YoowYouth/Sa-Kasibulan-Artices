@@ -11,13 +11,20 @@ header {
     text-align: center;
 }
 
+/* Add styles for the logo */
+header img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Adjust margin as needed */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
 }
 
@@ -30,7 +37,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
-    position: fixed;
+    /* position: fixed; */ /* Remove this line if you want a non-fixed footer */
     bottom: 0;
     width: 100%;
 }
